@@ -55,6 +55,7 @@
                         <TextField fx:id="InterestRate" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                         <TextField fx:id="NbrOfYears" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                         <DatePicker fx:id="PaymentStartDate" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <TextField fx:id="AdditonalPayment" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                      </children>
                   </GridPane>
                   <HBox prefHeight="152.0" prefWidth="88.0" />
@@ -70,7 +71,8 @@
                      <children>
                         <Label text="Total Payments" />
                         <Label text="Total Interest" GridPane.rowIndex="1" />
-                        <Label fx:id="lblTotalPayemnts" prefHeight="18.0" prefWidth="174.0" GridPane.columnIndex="1" />
+                        <Label fx:id="lblTotalPayments" GridPane.columnIndex="1" />
+                        <Label fx:id="lblTotalInterest" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                      </children>
                   </GridPane>
                </children>
