@@ -3,6 +3,7 @@ package app.controller;
 import app.StudentCalc;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import java.net.URL;
 import java.time.LocalDate;
@@ -57,8 +58,10 @@ public class LoanCalcViewController implements Initializable   {
 	@FXML
 	private TextField AdditonalPayment;
 	
-	
-	
+	/*
+	@FXML
+	private TableView table = new TableView();
+	*/
 	
 	List<Integer> number = new ArrayList<>();
 	List<Double> payment = new ArrayList<>();
@@ -212,5 +215,9 @@ public class LoanCalcViewController implements Initializable   {
 		
 		lblTotalPayments.setText(String.valueOf(totalPayment));
 		lblTotalInterest.setText(String.valueOf(sumInterest));
+	}
+	
+	public void method() {
+		
 	}
 }
